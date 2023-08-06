@@ -49,7 +49,7 @@ const getNoteByIdHandler = (request, h) => {
 
   if (note !== undefined) {
     return {
-      status: 'sucess',
+      status: 'success',
       data: {
         note,
       },
